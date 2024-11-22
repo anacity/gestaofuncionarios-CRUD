@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    overflow-x: hidden;
+}
+
+header {
+    padding: 10px;
+    margin-bottom: 50px;
+    border-bottom: 3px solid #1D3557;
+}
+
+.funcionario {
+    margin: 0 auto;
+    display: flex;
+    padding: 10px;
+    width: 800px;
+}
+
+.funcionario img {
+    width: 40%;
+    color: white;
+}
+
+.funcionario-details {
+    width: 60%;
+    margin-top: 30px;
+}
+
+.funcionario-details h3 {
+	font-weight: normal;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+a .btn-deletar, .btn-editar {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    background-color: #457B9D;
+    border: 1px solid #457B9D;
+    border-radius: 4px;
+    color: #F1FAEE;
+    padding: 5px;
+}
+
+.btn-editar:hover{
+    background-color: #1D3557;
+    border: 1px solid #F1FAEE;
+}
+
+.btn-deletar:hover{
+    background-color: #E63946;
+    border: 1px solid #F1FAEE;
+}
+
+.btn-editar a {
+    text-decoration: none;
+    color: #F1FAEE;
+}
+
+footer {
+	background-color: #457B9D;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	margin-top: 80px;
+	height: 50px;
+	width: 100%;
+	overflow: hidden;
+	
+}
